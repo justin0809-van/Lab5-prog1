@@ -28,3 +28,27 @@ The purpose of this project is to demonstrate and study library classes, such
 as ArrayList, HashMap, HashSet, and Random.
 
 This project is only a first, rudimentary step towards the full solution.
+
+24) A HashMap is a data structure in Java that implements the Map interface.
+  -The main purpose of it is to store associations objects in key-value pairs
+  - THe hashMap is used by putting a unique key into the map with a specific value by associating it
+  
+25) - key, put and get methods for example.
+    - Yes i think that they can be used for both parameters.
+    
+
+26) Calling a method that returns the map's current size.
+
+28) The new value overwrites the old value stored within that key.
+
+29) Both entries are stored in the map.
+
+30) with a method called containsKey(key);
+if (map.containsKey("apple")) {
+    System.out.println("Key is there");
+} else {
+    System.out.println("Key is not there");
+
+31) Null
+
+32) using the KeySet method and then using the iterate method in the collection.
