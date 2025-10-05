@@ -52,3 +52,11 @@ if (map.containsKey("apple")) {
 31) Null
 
 32) using the KeySet method and then using the iterate method in the collection.
+
+33)
+
+34) Arraylist allows duplications, has a list and has insertion order. Hashmap is the opposite.
+
+35) ArrayList preserves the order and duplicates, Hashmap removes duplicates and does not have order.
+
+36)

@@ -1,4 +1,6 @@
-
+import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 /**
  * The responder class represents a response generator object.
  * It is used to generate an automatic response to an input string.
@@ -8,20 +10,27 @@
  */
 public class Responder
 {
+    private Map<String, String> responses;
+    
     /**
-     * Construct a Responder - nothing to do
+     * Construct a Responder
      */
     public Responder()
-    {
+    { 
+        responses = new HashMap();
     }
 
     /**
      * Generate a response.
      * @return   A string that should be displayed as the response
      */
-    public String generateResponse()
+    public String generateResponse(Set<String> words)
     {
-        return "That sounds interesting. Tell me more...";
+        for (String word : words) {
+            if (responses.containsKey(word)) {
+                return responses.get(word);
+            }
+        } return "That sounds interesting, Tell me more...";
     }
 }
 
