@@ -59,4 +59,4 @@ if (map.containsKey("apple")) {
 
 35) ArrayList preserves the order and duplicates, Hashmap removes duplicates and does not have order.
 
-36)
+36) No problems, thats because trim method is used.
